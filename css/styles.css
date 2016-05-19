@@ -26,6 +26,7 @@ margin:5px 5px;
 
 #logo, #welcome {
 	   border-right: 2px solid #173F64;
+	   padding: .3em 0;
 }
 
 .downdown-menu li, span{
@@ -92,13 +93,18 @@ margin:5px 5px;
 
 }
 
+
 @media (min-width: 768px){
 .responsive-width {   
     font-size: 1vw;
 }
 
+.navbar {
+    border-radius: 0px;
+}
 
 }
+
 @media (max-width: 767px){
 .responsive-width {
     font-size: 7.7px;
