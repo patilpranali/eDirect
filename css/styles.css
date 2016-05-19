@@ -24,11 +24,8 @@ margin:5px 5px;
   display:         flex;
 }
 
-.ed-verticle-line {
-	border-right: 1px;
-	border-right-color: white;
-	padding:0;
-	width: 50%;
+#logo, #welcome {
+	   border-right: 2px solid #173F64;
 }
 
 .downdown-menu li, span{
@@ -43,10 +40,7 @@ margin:5px 5px;
 	float: left;
 }
 
-
-
-
-.vcenter {
+.vcenter {   /* Align the divs inside column Vertically  */
     display: inline-block;
     vertical-align: middle;
     float: none;
@@ -74,6 +68,7 @@ margin:5px 5px;
     background-color: #173F64;
 }
 
+/*   Media queries down below */
 
 @media (min-width: 992px){
 .container {
@@ -98,7 +93,7 @@ margin:5px 5px;
 }
 
 @media (min-width: 768px){
-.responsive-width {
+.responsive-width {   
     font-size: 1vw;
 }
 
