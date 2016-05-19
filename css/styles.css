@@ -1,0 +1,107 @@
+body{
+
+}
+.container{
+	
+
+}
+.ed-bg-blue {
+	background-color: #0B2D56;
+}
+
+.ed-hdr-row{
+	padding: 15px 0;
+}
+.ed-btn{
+background-color: #264b6f;
+color: white;
+margin:5px 5px;
+}
+.ed-btn-context{
+margin-top: -25px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.ed-verticle-line {
+	border-right: 1px;
+	border-right-color: white;
+	padding:0;
+	width: 50%;
+}
+
+.downdown-menu li, span{
+	
+	color:white;
+}
+
+.sub-nav-list {
+	display: block
+}
+.sub-list-item {
+	float: left;
+}
+.ed-resize-brand {
+	width: 30%;
+	display: inline-block;
+}
+
+.ed-resize-logo {
+	width: 40%;
+	display:inline-block;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.navbar-default{
+	background-color: #173F64;
+
+} 
+.navbar-nav{
+	background-color: #173f64;
+	margin:0;
+}
+
+.dropdown-menu{
+	
+	background-color: #5e7a94;
+	border: 1px solid rgb(94, 122, 148);
+	border-radius: 0;
+	width: 100%
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #173F64;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.ed-resize-brand {
+	width: 20%;
+}
+.ed-resize-logo {
+	width: 30%;
+}
+.ed-btn-context{
+	margin-left: 191px;
+}
+
+
+}
+
+@media (min-width: 768px){
+
+
+
+}
+
+
