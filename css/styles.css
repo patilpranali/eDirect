@@ -43,9 +43,7 @@ margin:5px 5px;
 	float: left;
 }
 
-wrapper-left row #context-btn{
-	display:inline-block !important;
-}
+
 
 
 .vcenter {
@@ -100,9 +98,15 @@ wrapper-left row #context-btn{
 }
 
 @media (min-width: 768px){
+.responsive-width {
+    font-size: 1vw;
+}
 
 
-
+}
+@media (max-width: 767px){
+.responsive-width {
+    font-size: 7.7px;
 }
 
 
