@@ -77,7 +77,27 @@ a.btn-navbar{
     background-color: #173F64;
 }
 
-/*   Media queries down below */
+div.nav-collapse.collapse.in, .collapsing{
+	padding:0 30px;
+	height:auto;
+}
+
+.nav>li {
+		padding:0 1.5em;
+		margin-bottom: 1em;
+}
+.nav>li:first-child {
+    padding-left: 0;
+	border-right: 1px solid #6D869E;
+}
+.menu-links li a {
+	color: #B3C0CC;
+    text-decoration: none;
+}
+a:focus, a:hover, a:active {
+	color: white;	
+}
+/*  Media queries down below */
 
 @media (min-width: 992px){
 .container {
