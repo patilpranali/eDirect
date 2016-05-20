@@ -7,16 +7,19 @@ body{
 }
 
 .ed-hdr-row{
-	padding: 15px 0;
+	padding: 15px 30px;
 }
 .ed-btn{
 background-color: #264b6f;
 color: white;
 margin:5px 5px;
 }
-.ed-btn-context{
 
+
+a.btn-navbar {
+	margin-left: 15px;
 }
+
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -34,13 +37,18 @@ margin:5px 5px;
 	color:white;
 }
 
-.sub-nav-list {
-	display: block
+ul.nav.nav-pills {
+    color: rgba(255, 255, 255, 0.72);
 }
-.sub-list-item {
-	float: left;
+a.btn-navbar{
+	    color: rgba(255, 255, 255, 0.71);
 }
-
+.navbar-inner{
+	background-color: rgb(38, 75, 111);
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #FFF;
+}
 .vcenter {   /* Align the divs inside column Vertically  */
     display: inline-block;
     vertical-align: middle;
